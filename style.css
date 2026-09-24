@@ -1,13 +1,14 @@
 /* CSS for Dinesh Blog - Task 5 */
+/* Font: Poppins from Google Fonts */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   margin: 0;
-  background-color: #f7f7f7;
+  background-color: #e8f6f3;
   color: #333333;
 }
 
-/* Header */
+/* Header with a different background color */
 header {
   background-color: #16a085;
   color: white;
@@ -34,9 +35,17 @@ header p {
 .post {
   background-color: white;
   border: 1px solid #dddddd;
+  border-left: 5px solid #16a085;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect: the post lifts up with a shadow */
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
 .post h2 {
@@ -44,9 +53,9 @@ header p {
   color: #16a085;
 }
 
-/* Small grey date under the title */
-.date {
-  color: #999999;
+/* Small grey line with author and date */
+.info {
+  color: #888888;
   font-size: 13px;
   margin-top: -8px;
 }

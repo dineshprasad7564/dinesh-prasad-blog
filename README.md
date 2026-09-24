@@ -6,7 +6,12 @@ Live website: https://dineshprasad7564.github.io/dinesh-prasad-blog/
 
 ## What is this?
 
-A simple blog page with 3 sample posts written by me:
+A simple blog page with 3 sample posts written by me.
+Each post has a title, author, date and the post text.
+The design uses the Poppins font from Google Fonts, background colors
+and a hover effect on the posts.
+
+Posts:
 1. My Web Development Journey
 2. Why I Like Cyber Security
 3. Making My First Portfolio Website
