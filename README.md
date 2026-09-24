@@ -2,6 +2,8 @@
 
 Made by **Dinesh Prasad** for the Web Development Internship.
 
+Live website: https://dineshprasad7564.github.io/dinesh-prasad-blog/
+
 ## What is this?
 
 A simple blog page with 3 sample posts written by me:
