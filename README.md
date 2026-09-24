@@ -13,6 +13,8 @@ A simple blog page with 3 sample posts written by me:
 
 - index.html - the blog posts
 - style.css - the design
+- script.js - puts the current year in the footer
+- profile.jpg - my photo
 
 ## How to run
 
@@ -20,4 +22,4 @@ Open the index.html file in a browser. Nothing else is needed.
 
 ## Made with
 
-Simple HTML and CSS. No frameworks used.
+Simple HTML, CSS and JavaScript. No frameworks used.
